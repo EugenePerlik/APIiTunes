@@ -1,0 +1,52 @@
+
+//запрос 
+
+https://itunes.apple.com/search?term=Podlodka&limit=1&country=ru
+
+//ответ
+
+{
+    "resultCount": 1,
+    "results": [
+        {
+            "wrapperType": "track",
+            "kind": "podcast",
+            "collectionId": 1209828744,
+            "trackId": 1209828744,
+            "artistName": "Егор Толстой, Стас Цыганов, Екатерина Петрова и Евгений Кателла",
+            "collectionName": "Podlodka Podcast",
+            "trackName": "Podlodka Podcast",
+            "collectionCensoredName": "Podlodka Podcast",
+            "trackCensoredName": "Podlodka Podcast",
+            "collectionViewUrl": "https://itunes.apple.com/ru/podcast/podlodka-podcast/id1209828744?mt=2&uo=4",
+            "feedUrl": "http://feeds.soundcloud.com/users/soundcloud:users:291337106/sounds.rss",
+            "trackViewUrl": "https://itunes.apple.com/ru/podcast/podlodka-podcast/id1209828744?mt=2&uo=4",
+            "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/85/99/51/85995101-5408-6204-4006-31f191f52e71/source/30x30bb.jpg",
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/85/99/51/85995101-5408-6204-4006-31f191f52e71/source/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/85/99/51/85995101-5408-6204-4006-31f191f52e71/source/100x100bb.jpg",
+            "collectionPrice": 0,
+            "trackPrice": 0,
+            "trackRentalPrice": 0,
+            "collectionHdPrice": 0,
+            "trackHdPrice": 0,
+            "trackHdRentalPrice": 0,
+            "releaseDate": "2019-02-10T18:40:00Z",
+            "collectionExplicitness": "cleaned",
+            "trackExplicitness": "cleaned",
+            "trackCount": 105,
+            "country": "RUS",
+            "currency": "RUB",
+            "primaryGenreName": "Технологии",
+            "contentAdvisoryRating": "Clean",
+            "artworkUrl600": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/85/99/51/85995101-5408-6204-4006-31f191f52e71/source/600x600bb.jpg",
+            "genreIds": [
+                "1318",
+                "26"
+            ],
+            "genres": [
+                "Технологии",
+                "Подкасты"
+            ]
+        }
+    ]
+}

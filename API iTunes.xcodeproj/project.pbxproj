@@ -12,6 +12,9 @@
 		A7897E2B22183503001A239E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7897E2922183503001A239E /* Main.storyboard */; };
 		A7897E2D22183506001A239E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7897E2C22183506001A239E /* Assets.xcassets */; };
 		A7897E3022183506001A239E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7897E2E22183506001A239E /* LaunchScreen.storyboard */; };
+		A7897E38221948F9001A239E /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7897E37221948F9001A239E /* URL+Extension.swift */; };
+		A7897E3A22195DED001A239E /* PodkastInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7897E3922195DED001A239E /* PodkastInfo.swift */; };
+		A7897E402219AD6D001A239E /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7897E3F2219AD6D001A239E /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A7897E2C22183506001A239E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7897E2F22183506001A239E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7897E3122183506001A239E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7897E37221948F9001A239E /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		A7897E3922195DED001A239E /* PodkastInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodkastInfo.swift; sourceTree = "<group>"; };
+		A7897E3F2219AD6D001A239E /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +61,48 @@
 			isa = PBXGroup;
 			children = (
 				A7897E2522183503001A239E /* AppDelegate.swift */,
-				A7897E2722183503001A239E /* ViewController.swift */,
-				A7897E2922183503001A239E /* Main.storyboard */,
+				A7897E3E2219ACFF001A239E /* Controller */,
+				A7897E3D2219ACEA001A239E /* Model */,
+				A7897E3B2219AC9B001A239E /* View */,
+				A7897E3C2219ACC1001A239E /* Extension */,
 				A7897E2C22183506001A239E /* Assets.xcassets */,
 				A7897E2E22183506001A239E /* LaunchScreen.storyboard */,
 				A7897E3122183506001A239E /* Info.plist */,
 			);
 			path = "API iTunes";
+			sourceTree = "<group>";
+		};
+		A7897E3B2219AC9B001A239E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7897E2922183503001A239E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7897E3C2219ACC1001A239E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A7897E37221948F9001A239E /* URL+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A7897E3D2219ACEA001A239E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7897E3922195DED001A239E /* PodkastInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7897E3E2219ACFF001A239E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7897E2722183503001A239E /* ViewController.swift */,
+				A7897E3F2219AD6D001A239E /* ImageController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +178,9 @@
 			files = (
 				A7897E2822183503001A239E /* ViewController.swift in Sources */,
 				A7897E2622183503001A239E /* AppDelegate.swift in Sources */,
+				A7897E3A22195DED001A239E /* PodkastInfo.swift in Sources */,
+				A7897E402219AD6D001A239E /* ImageController.swift in Sources */,
+				A7897E38221948F9001A239E /* URL+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
